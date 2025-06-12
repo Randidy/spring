@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ControladorREST {
 
     @GetMapping("/inicio")
-    public String inicio(){
+    public String comienzo(){
 
         return "indice";
     }
