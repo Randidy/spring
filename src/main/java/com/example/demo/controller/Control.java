@@ -13,7 +13,7 @@ public class Control {
     @GetMapping("/mensaje")
     public Map<String, String> obtenerMensaje() {
         Map<String, String> respuesta = new HashMap<>();
-        respuesta.put("mensaje", "Hola, este es un JSON simple LILOO CHIMUELITAAAA");
+        respuesta.put("mensaje", "Hola, este es un LILOO CHIMUELITAAAA");
         return respuesta;
     }
 
